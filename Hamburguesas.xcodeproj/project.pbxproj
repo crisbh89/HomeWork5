@@ -12,6 +12,7 @@
 		0997AD6C1C09FF5D00709951 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0997AD6A1C09FF5D00709951 /* Main.storyboard */; };
 		0997AD6E1C09FF5D00709951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0997AD6D1C09FF5D00709951 /* Assets.xcassets */; };
 		0997AD711C09FF5D00709951 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0997AD6F1C09FF5D00709951 /* LaunchScreen.storyboard */; };
+		0997AD791C09FF8A00709951 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0997AD781C09FF8A00709951 /* Datos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0997AD6D1C09FF5D00709951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0997AD701C09FF5D00709951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0997AD721C09FF5D00709951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0997AD781C09FF8A00709951 /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				0997AD6D1C09FF5D00709951 /* Assets.xcassets */,
 				0997AD6F1C09FF5D00709951 /* LaunchScreen.storyboard */,
 				0997AD721C09FF5D00709951 /* Info.plist */,
+				0997AD781C09FF8A00709951 /* Datos.swift */,
 			);
 			path = Hamburguesas;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			files = (
 				0997AD691C09FF5D00709951 /* ViewController.swift in Sources */,
 				0997AD671C09FF5D00709951 /* AppDelegate.swift in Sources */,
+				0997AD791C09FF8A00709951 /* Datos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,9 +255,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Hamburguesas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cris.Hamburguesas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -262,9 +268,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Hamburguesas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cris.Hamburguesas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -287,6 +295,7 @@
 				0997AD771C09FF5D00709951 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
